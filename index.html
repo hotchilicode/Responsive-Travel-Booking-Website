@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script sefer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+
+    <title>Chulos con sin - H</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="#">ChuloSin-H</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Header -->
+
+    <main>
+      <!-- Modal -->
+
+      <div class="modal fade" tabindex="-1" id="booking-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Book Right Now</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="#">
+               
+
+                <div class="row g-2">
+
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input id="email1" type="email" class="form-control" placeholder="Email Address">
+                      <label for="email1">Email Address</label>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <select name="select1" class="form-select">
+                        <option value="1">Tomso, Norway - $899</option>
+                        <option value="2">Reyjavik, Iceland - $799</option>
+                        <option value="3">Yukon, Canada - $849</option>
+    
+                      </select>
+                      <label for="select1">Pick a tour</label>
+                      </div>
+                  </div>                
+                </div>
+              </form>
+            </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Go Ahead</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">Discover The Hidden World</p>
+                <h1 class="display-1 fw-bolder text-capitalize">You'll fall in love about it.</h1>
+                <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Click On Me</button>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">The World Fantasy Is Here</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Amazing content for the first slide.</h1>
+                <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Click On Me</button>
+              </div>        
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">You Can Fing So Much Fun Right Here</p>
+                <h1 class="display-1 fw-bolder text-capitalize">This is so good fo you.</h1>
+                <button type="button" class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Click On Me</button>
+              </div>        
+          </div> 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    
+</body>
+</html>
